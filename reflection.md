@@ -13,11 +13,14 @@
 
 3) Users should be able to view an organized daily schedule so they can see what tasks need to be completed and when.
 
+I chose four main classes for my design: Owner, Pet, Task, and Scheduler. The Owner class stores the user's pets, the Pet class stores information and tasks for each pet, the Task class represents individual pet care activities, and the Scheduler class manages scheduling logic such as sorting, filtering, and conflict detection. 
+
 **b. Design changes**
 
 - Did your design change during implementation?
 - If yes, describe at least one change and why you made it.
 
+I decided to use Python dataclasses for the Task and Pet classes because they mainly store data. I also kept the Scheduler separate from the Owner class so scheduling logic is organized and easier to maintain.
 ---
 
 ## 2. Scheduling Logic and Tradeoffs
