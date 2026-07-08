@@ -54,6 +54,18 @@ Paste a sample of your app's CLI or Streamlit output here so a reader can see wh
 #   ...
 ```
 
+Today's Schedule
+----------------
+Owner: Nikita
+
+Pet: Mochi (Dog)
+08:00 — Morning walk (daily) [Not Done]
+12:00 — Feeding (daily) [Not Done]
+14:30 — Vet appointment (once) [Not Done]
+
+No scheduling conflicts detected.
+
+
 ## 🧪 Testing PawPal+
 
 ```bash
@@ -69,6 +81,21 @@ Sample test output:
 ```
 # Paste your pytest output here
 ```
+
+## Testing PawPal+
+
+Run the automated tests with:
+
+```bash
+python3 -m pytest
+
+```text
+============================= test session starts =============================
+collected 5 items
+
+tests/test_pawpal.py .....                                   [100%]
+
+============================== 5 passed ==============================
 
 ## 📐 Smarter Scheduling
 
@@ -98,5 +125,14 @@ Today's Schedule
 08:00 - Morning walk (daily) [Not Done]
 14:30 - Vet appointment (once) [Not Done]
 18:00 - Dinner feeding (daily) [Not Done]
+
+## Features
+
+- Add multiple pets
+- Schedule pet care tasks
+- Sort tasks by time
+- Filter tasks by completion status or pet
+- Detect scheduling conflicts
+- Automatically create the next daily recurring task
 
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or link to a demo video here -->
