@@ -91,4 +91,12 @@ Describe your app in numbered steps so a reader can follow along without watchin
 4. <!-- Describe this step -->
 5. <!-- Add more steps as needed -->
 
+## Sample Output
+
+Today's Schedule
+----------------
+08:00 - Morning walk (daily) [Not Done]
+14:30 - Vet appointment (once) [Not Done]
+18:00 - Dinner feeding (daily) [Not Done]
+
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or link to a demo video here -->
